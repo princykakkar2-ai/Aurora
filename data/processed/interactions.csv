@@ -1,0 +1,14 @@
+interaction_id,drug_a_id,drug_b_id,severity,description,source
+1,1,2,major,Synthetic demo interaction: potential increase in serum concentration.,Demo Registry Alpha
+2,3,4,moderate,Synthetic demo interaction: moderate competitive receptor binding.,Demo Trial Beta
+3,5,6,minor,Synthetic demo interaction: minor metabolic enzyme competition.,Demo Dataset Gamma
+4,6,7,unknown,Synthetic demo interaction: unclassified interaction severity.,Demo Registry Alpha
+5,1,3,minor,Synthetic demo interaction: minor synergistic clearance alteration.,Demo Registry Alpha
+6,2,4,moderate,Synthetic demo interaction: moderate clearance reduction in mock trial.,Demo Dataset Gamma
+7,5,8,major,Synthetic demo interaction: significant metabolic pathway competition.,Demo Trial Beta
+8,2,6,moderate,Synthetic demo interaction: moderate interaction on mock transporter.,Demo Registry Gamma
+9,9,10,minor,Synthetic demo interaction: minor pharmacokinetic variation observed.,Demo Registry Beta
+10,10,11,major,Synthetic demo interaction: elevated risk of mock adverse reaction.,Demo Registry Alpha
+11,1,11,moderate,Synthetic demo interaction: moderate additive effect.,Demo Trial Beta
+12,3,5,moderate,"[CONFLICT RESOLVED: Severities reported were ['minor', 'moderate']. Selected 'moderate' following conservative clinical safety policy.] Synthetic demo interaction: minor clearance alteration reported in cohort 1. | Synthetic demo interaction: moderate clearance alteration reported in cohort 2.",Demo Trial Alpha; Demo Trial Gamma
+13,4,5,moderate,Synthetic demo interaction: case variation in severity string.,Demo Dataset Gamma

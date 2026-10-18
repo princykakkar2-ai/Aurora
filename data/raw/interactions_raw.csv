@@ -1,0 +1,21 @@
+drug_a,drug_b,severity,description,source
+DemoDrugA,DemoDrugB,major,Synthetic demo interaction: potential increase in serum concentration.,Demo Registry Alpha
+demodruga,DemoDrugB,major,Synthetic demo interaction: potential increase in serum concentration.,Demo Registry Alpha
+DemoDrugB,DemoDrugA,major,Synthetic demo interaction: potential increase in serum concentration.,Demo Registry Alpha
+  DemoDrugC  ,DemoDrugD,moderate,Synthetic demo interaction: moderate competitive receptor binding.,Demo Trial Beta
+DemoDrugD,demodrugc,moderate,Synthetic demo interaction: moderate competitive receptor binding.,Demo Trial Beta
+DemoDrugE,DemoDrugF,minor,Synthetic demo interaction: minor metabolic enzyme competition.,Demo Dataset Gamma
+DemoDrugF,DemoDrugG,,Synthetic demo interaction: unclassified interaction severity.,Demo Registry Alpha
+DemoDrugG,,moderate,Synthetic demo interaction: target drug missing from entry.,Demo Registry Beta
+DemoDrugH,DemoDrugH,major,Synthetic demo interaction: invalid mock self-interaction recorded in error.,Demo Registry Beta
+DemoDrugA,DemoDrugC,minor,Synthetic demo interaction: minor synergistic clearance alteration.,Demo Registry Alpha
+DemoDrugB,DemoDrugD,moderate,Synthetic demo interaction: moderate clearance reduction in mock trial.,Demo Dataset Gamma
+DemoDrugE,DemoDrugH,major,Synthetic demo interaction: significant metabolic pathway competition.,Demo Trial Beta
+DemoDrugE,DemoDrugH,major,Synthetic demo interaction: significant metabolic pathway competition.,Demo Trial Beta
+DemoDrugF,DemoDrugB,moderate,Synthetic demo interaction: moderate interaction on mock transporter.,Demo Registry Gamma
+DEMODRUGI,DemoDrugJ,minor,Synthetic demo interaction: minor pharmacokinetic variation observed.,Demo Registry Beta
+DemoDrugJ,DemoDrugK,major,Synthetic demo interaction: elevated risk of mock adverse reaction.,Demo Registry Alpha
+DemoDrugK,DemoDrugA,moderate,Synthetic demo interaction: moderate additive effect.,Demo Trial Beta
+DemoDrugC,DemoDrugE,minor,Synthetic demo interaction: minor clearance alteration reported in cohort 1.,Demo Trial Alpha
+DemoDrugE,DemoDrugC,moderate,Synthetic demo interaction: moderate clearance alteration reported in cohort 2.,Demo Trial Gamma
+DemoDrugD,DemoDrugE,MODERATE,Synthetic demo interaction: case variation in severity string.,Demo Dataset Gamma
