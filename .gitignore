@@ -18,3 +18,14 @@ ENV/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Environment variables & secrets
+.env
+
+# SQLite test databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
